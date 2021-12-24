@@ -10,7 +10,7 @@ int main() {
     m[3] = 'l';
     m[4] = 'o';
     printf("%c %c %c %c %c", *m, *(m + 1), *(m + 2), *(m + 3), *(m + 4));
-    printf("\n");
+    #Removed unnecessary line
 
     char *a;
     a = (char *) malloc(9 * sizeof(char));
